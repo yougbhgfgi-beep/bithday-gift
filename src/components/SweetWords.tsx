@@ -70,10 +70,10 @@ export default function SweetWords() {
           <div className="relative z-10">
             <p className="text-5xl mb-6">👑</p>
             <p className="text-white text-2xl font-bold leading-relaxed">
-              عبد الله... أنت ملك بكل معنى الكلمة.
+              أنتِ ملكة بكل معنى الكلمة.
             </p>
             <p className="text-pink-100 text-lg mt-3">
-              لا يحتاج جمالك إلى شرح، فهو يتكلم من تلقاء نفسه.
+              لا يحتاج جمالكِ إلى شرح، هو يتكلم من تلقاء نفسه.
             </p>
           </div>
         </div>

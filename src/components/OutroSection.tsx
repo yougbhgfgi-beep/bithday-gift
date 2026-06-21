@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo, useRef } from 'react';
 import { X, Heart, Sparkles } from 'lucide-react';
 
 const OUTRO_LINES = [
-  'يا عبد الله... أنت أجمل هدية منحتها الحياة لمن يحبّك.',
+  'يا أجمل إنسانة... أنتِ أجمل هدية منحتها الحياة لمن يحبّك.',
   'في كل نبضة قلب تسكن ذكراك،',
   'وفي كل نسمة هواء تحمل عبيرك.',
   '',
@@ -12,7 +12,7 @@ const OUTRO_LINES = [
   'وبالحب الذي يغمر قلبك الطيب،',
   'وبالفرح الذي لا ينتهي.',
   '',
-  '✨ عيد ميلادك الرابع والعشرون... بداية أجمل فصول قصتك ✨',
+  '✨ عيد ميلادك... بداية أجمل فصول قصتك ✨',
   '',
   '💖 مع كل الحب والتقدير... 💖',
 ];
@@ -89,7 +89,7 @@ export default function OutroSection() {
         <div className="flex justify-center gap-2 mb-10 overflow-x-auto px-2">
           {[1,2,3,4].map(i => (
             <div key={i} className="w-20 h-20 md:w-24 md:h-24 rounded-2xl overflow-hidden shadow-md flex-shrink-0 border-2 border-pink-200/60">
-              <img src={`${import.meta.env.BASE_URL}gallery/${i}.jpeg`} alt=""
+              <img src={`https://images.unsplash.com/photo-${['1558636508-e0db3814bd1d','1464349095431-e9a21285b5f3','1530103862676-de8c9debad1d','1513151233558-d860c5398176'][i-1]}?w=200&h=200&fit=crop`} alt=""
                 className="w-full h-full object-cover" />
             </div>
           ))}
@@ -111,7 +111,7 @@ export default function OutroSection() {
           <span className="text-pink-300 text-3xl animate-heartbeat">💝</span>
           <div className="h-px w-28 bg-gradient-to-l from-transparent to-pink-300" />
         </div>
-        <p className="mt-4 text-pink-300 text-sm">صُنع هذا الموقع بكل المحبة خصيصاً لك يا عبد الله</p>
+        <p className="mt-4 text-pink-300 text-sm">صُنع هذا الموقع بكل المحبة خصيصاً لكِ 💝</p>
       </div>
 
       {/* Outro overlay */}
@@ -172,8 +172,8 @@ export default function OutroSection() {
                     <span key={i} className="animate-float-bounce" style={{ animationDelay: `${i * 0.15}s` }}>{e}</span>
                   ))}
                 </div>
-                <p className="text-white text-3xl md:text-4xl font-black shimmer-text">عبد الله 💕</p>
-                <p className="text-pink-300 text-lg">كل عام وأنت بخير يا أجمل إنسان</p>
+                <p className="text-white text-3xl md:text-4xl font-black shimmer-text">بصمة 💕</p>
+                <p className="text-pink-300 text-lg">كل عام وأنتِ بخير يا أجمل إنسانة</p>
                 <div className="flex items-center justify-center gap-2 text-pink-400 text-sm">
                   <Sparkles size={16} />
                   <span>دائمًا في قلبي</span>

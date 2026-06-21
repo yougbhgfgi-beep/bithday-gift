@@ -58,15 +58,15 @@ export default function LoginPage({ onLogin }: Props) {
         <div className="flex justify-center mb-5">
           <div className="relative w-24 h-24 rounded-full flex items-center justify-center animate-pulse-glow overflow-hidden"
             style={{ background: 'linear-gradient(135deg, #ff69b4, #ff1493)', boxShadow: '0 0 30px rgba(255,105,180,0.5)' }}>
-            <img src={`${import.meta.env.BASE_URL}gallery/1.jpeg`} alt="عبد الله" className="w-full h-full object-cover" />
+            <img src="https://images.unsplash.com/photo-1558636508-e0db3814bd1d?w=200&h=200&fit=crop" alt="بصمة" className="w-full h-full object-cover" />
             <span className="absolute -top-1 -right-1 text-lg animate-float-bounce" style={{ animationDelay: '0.5s' }}>🎂</span>
             <span className="absolute -bottom-1 -left-1 text-sm animate-float-bounce" style={{ animationDelay: '1s' }}>✨</span>
           </div>
         </div>
 
         {/* Title */}
-        <h1 className="text-4xl font-black mb-2 shimmer-text">عبد الله</h1>
-        <p className="text-pink-500 font-semibold text-lg mb-1">مرحباً بك يا أجمل إنسان 🌹</p>
+        <h1 className="text-4xl font-black mb-2 shimmer-text">بصمة 💝</h1>
+        <p className="text-pink-500 font-semibold text-lg mb-1">مرحباً بكِ يا أجمل إنسانة 🌹</p>
         <p className="text-pink-400 text-sm mb-8">أدخل كلمة السر الخاصة بك</p>
 
         <form onSubmit={handleSubmit} className="space-y-4">
@@ -98,7 +98,7 @@ export default function LoginPage({ onLogin }: Props) {
             ) : (
               <span className="flex items-center justify-center gap-2">
                 <Heart size={20} />
-                ادخل يا قلبي
+                ادخلي يا قلبي
               </span>
             )}
           </button>

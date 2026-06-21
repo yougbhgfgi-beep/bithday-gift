@@ -160,7 +160,7 @@ export default function CakeSection() {
           <div className="relative w-80 h-24 rounded-b-3xl shadow-xl overflow-hidden -mt-1"
             style={{ background: 'linear-gradient(135deg, #ff85a1, #ff69b4)' }}>
             <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-white font-bold text-2xl drop-shadow-md">عبد الله 💝</span>
+              <span className="text-white font-bold text-2xl drop-shadow-md">بصمة 💝</span>
             </div>
             {/* Bottom decoration */}
             <div className="absolute bottom-2 left-0 right-0 flex justify-center gap-3">
@@ -196,10 +196,10 @@ export default function CakeSection() {
 
             <div className="text-6xl mb-4 animate-float-bounce">🎊</div>
             <h3 className="text-3xl font-black shimmer-text mb-4">
-              عيد ميلاد سعيد يا عبد الله! 🎂
+              عيد ميلاد سعيد يا أجمل إنسانة! 🎂
             </h3>
             <p className="text-pink-700 leading-relaxed text-lg">
-              24 سنة من العز والرجولة والتميز...
+              سنة من العز والتميز...
               أتمنى لك سنةً مليئة بالسعادة والنجاح والحب والخير.
               كل عام وأنت بألف خير يا قلبي 💖
             </p>

@@ -22,7 +22,7 @@ export default function VideoSection({ onPlay, onPause }: Props) {
           <div className="relative" style={{ paddingBottom: '56.25%' }}>
             <video
               className="absolute inset-0 w-full h-full object-contain"
-               src={`${import.meta.env.BASE_URL}video.mp4`}
+               src="https://www.w3schools.com/html/mov_bbb.mp4"
               controls
               playsInline
               preload="metadata"

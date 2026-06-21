@@ -93,7 +93,7 @@ export default function MemoriesSection() {
               <X size={18} className="text-pink-500" />
             </button>
             <div className="text-6xl mb-4 animate-heartbeat">💖</div>
-            <h3 className="text-2xl font-black text-pink-600 mb-3">كل لحظة معاك ذكرى</h3>
+            <h3 className="text-2xl font-black text-pink-600 mb-3">كل لحظة معاكِ ذكرى</h3>
             <p className="text-pink-700 leading-relaxed">
               حتى لو كبرنا و كبرت ذكرياتنا، فضلت أحلى حاجة في حياتي إن كل لحظة جميلة عشناها سوا.
               كل موقف و كل ضحكة و كل دمعة... كل ده خلّينا احنا.
@@ -104,7 +104,7 @@ export default function MemoriesSection() {
             <button onClick={() => setOpenMemories(false)}
               className="mt-6 w-full py-3 rounded-2xl font-bold text-white text-lg transition-all hover:scale-105 active:scale-95"
               style={{ background: 'linear-gradient(135deg, #ff69b4, #ff1493)' }}>
-              بحبك 💕
+              بحبكِ 💕
             </button>
           </div>
         </div>

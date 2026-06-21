@@ -2,12 +2,12 @@ import { useState } from 'react';
 import { X } from 'lucide-react';
 
 const GALLERY_IMAGES = [
-  { src: `${import.meta.env.BASE_URL}gallery/1.jpeg`, label: 'لحظة جميلة 🌸' },
-  { src: `${import.meta.env.BASE_URL}gallery/2.jpeg`, label: 'ذكرى لا تُنسى 💕' },
-  { src: `${import.meta.env.BASE_URL}gallery/3.jpeg`, label: 'أجمل اللحظات ✨' },
-  { src: `${import.meta.env.BASE_URL}gallery/4.jpeg`, label: 'ذكريات الربيع 🌺' },
-  { src: `${import.meta.env.BASE_URL}gallery/5.jpeg`, label: 'لمسة من الجمال 💖' },
-  { src: `${import.meta.env.BASE_URL}gallery/6.jpeg`, label: 'يوم لا يُنسى 🎀' },
+  { src: 'https://images.unsplash.com/photo-1558636508-e0db3814bd1d?w=600&h=600&fit=crop', label: 'لحظة جميلة 🌸' },
+  { src: 'https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600&h=600&fit=crop', label: 'ذكرى لا تُنسى 💕' },
+  { src: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&h=600&fit=crop', label: 'أجمل اللحظات ✨' },
+  { src: 'https://images.unsplash.com/photo-1513151233558-d860c5398176?w=600&h=600&fit=crop', label: 'ذكريات الربيع 🌺' },
+  { src: 'https://images.unsplash.com/photo-1549351236-caca0f174515?w=600&h=600&fit=crop', label: 'لمسة من الجمال 💖' },
+  { src: 'https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=600&h=600&fit=crop', label: 'يوم لا يُنسى 🎀' },
 ];
 
 export default function GallerySection() {

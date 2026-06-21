@@ -70,13 +70,13 @@ export default function EnvelopeModal({ onClose }: Props) {
                   <span key={i} className="animate-float-bounce" style={{ animationDelay: `${i * 0.2}s` }}>{e}</span>
                 ))}
               </div>
-              <h2 className="text-3xl font-black shimmer-text">إلى... عبد الله 🌹</h2>
+              <h2 className="text-3xl font-black shimmer-text">إلى... بصمة قلبي 💝</h2>
             </div>
 
             <div className="space-y-4 text-right leading-relaxed"
               style={{ fontFamily: 'Cairo', color: '#8b1a4a' }}>
               <p className="text-base text-pink-700">
-                حبيبي و نور عيني و أغلى حد على قلبي اللي مليش غيره
+                حبيبتي و نور عيني و أغلى حد على قلبي اللي مليش غيره
               </p>
               <p className="text-base text-pink-700">
                 دخلت حياتي نورتها و مليتها عليا
@@ -91,7 +91,7 @@ export default function EnvelopeModal({ onClose }: Props) {
                 عملت حاجات عكس طبيعتك عشاني.. عشان متحرمنيش من حاجة
               </p>
               <p className="text-base text-pink-700">
-                لقينا بعض ؟ لا يا حبيبي احنا نعرف بعض من زمان أوي أوي
+                لقينا بعض ؟ لا يا حبيبتي احنا نعرف بعض من زمان أوي أوي
               </p>
               <p className="text-base text-pink-700">
                 كل حد فينا عدى بقصة صعبة أو "قصص" بس كان لازم كل ده عشان نعرف قيمة بعض و نعرف إن وجودنا سوا هو رحمة من ربنا لينا عشان نعيش مع بعض أحلى حياة إن شاء الله و نعوض بعض عن اللي فات

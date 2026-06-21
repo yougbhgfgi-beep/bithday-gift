@@ -103,7 +103,7 @@ export default function CountersSection() {
     <section className="relative z-10 py-20 px-4">
       <div className="max-w-4xl mx-auto space-y-10">
         <CounterUnit
-          title="عمر عبد الله"
+          title="العمر"
           date={birthDate}
           icon="🎂"
           subtitle="من يوم ما جيت للدنيا"

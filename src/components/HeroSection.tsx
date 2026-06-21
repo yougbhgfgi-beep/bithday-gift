@@ -18,7 +18,7 @@ export default function HeroSection() {
         </p>
         <h1 className="font-black leading-tight shimmer-text"
           style={{ fontSize: 'clamp(3.5rem, 10vw, 7rem)' }}>
-          عبد الله
+          بصمة 💝
         </h1>
         <p className="text-2xl font-bold text-pink-500 mt-3 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
           عيد ميلاد سعيد 🎂
@@ -28,7 +28,7 @@ export default function HeroSection() {
       {/* Subtitle */}
       <p className="text-pink-400 text-lg max-w-md leading-relaxed animate-fade-in-up font-medium"
         style={{ animationDelay: '0.5s' }}>
-        لأجملِ إنسان في الكون، نُهديك هذا الموقع بكل المحبة والتقدير 💕
+        لأجمل إنسانة في الكون، نُهديك هذا الموقع بكل المحبة والتقدير 💕
       </p>
 
       {/* Heart divider */}
@@ -42,7 +42,7 @@ export default function HeroSection() {
       <div className="glass-card rounded-full px-8 py-4 shadow-lg animate-float-bounce"
         style={{ animationDelay: '0.3s' }}>
         <p className="text-pink-600 font-bold text-lg">
-          🎀 24 سنة من العز والتألق 🎀
+          🎀 سنة من العز والتألق 🎀
         </p>
       </div>
 
